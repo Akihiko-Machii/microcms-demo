@@ -35,8 +35,8 @@ module.exports = {
     {
       resolve: 'gatsby-source-microcms',
       options: {
-        apiKey: process.env.X_API_KEY,
-        serviceId: process.env.SERVICE_ID,
+        apiKey: process.env.GATSBY_MICRO_CMS_API_KEY,
+        serviceId: process.env.GATSBY_MICRO_CMS_SERVICE_ID,
         apis: [{
           endpoint: 'demo-site',
         }],
